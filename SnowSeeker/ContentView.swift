@@ -8,14 +8,22 @@
 
 import SwiftUI
 
+struct User: Identifiable {
+    var id = "Taylor Swift"
+}
+
+
 struct ContentView: View {
+    @State private var selectedUser: User? = nil
+    
+    
     var body: some View {
-        NavigationView {
-            NavigationLink(destination: Text("New secondary")) {
-            Text("Hello World!")
-            }
-            .navigationBarTitle("Primary")
-            Text("Secondary")
+        Text("Hello, World!")
+            .onTapGesture {
+                self.selectedUser = User()
+        }
+         .alert(item: $selectedUser) { user in
+            Alert(title: Text(user.id))
         }
     }
 }
