@@ -16,6 +16,7 @@
 		D4B6B4B124EA8257000C8126 /* resorts.json in Resources */ = {isa = PBXBuildFile; fileRef = D4B6B4B024EA8256000C8126 /* resorts.json */; };
 		D4B6B4B324EA832A000C8126 /* Resort.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B6B4B224EA832A000C8126 /* Resort.swift */; };
 		D4B6B4B524EA8464000C8126 /* Bundle-Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B6B4B424EA8464000C8126 /* Bundle-Decodable.swift */; };
+		D4B6B4B724EA8D82000C8126 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B6B4B624EA8D82000C8126 /* WelcomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		D4B6B4B024EA8256000C8126 /* resorts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = resorts.json; sourceTree = "<group>"; };
 		D4B6B4B224EA832A000C8126 /* Resort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resort.swift; sourceTree = "<group>"; };
 		D4B6B4B424EA8464000C8126 /* Bundle-Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle-Decodable.swift"; sourceTree = "<group>"; };
+		D4B6B4B624EA8D82000C8126 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 				D437DC5024E93D3000A4BB14 /* AppDelegate.swift */,
 				D437DC5224E93D3000A4BB14 /* SceneDelegate.swift */,
 				D437DC5424E93D3000A4BB14 /* ContentView.swift */,
+				D4B6B4B624EA8D82000C8126 /* WelcomeView.swift */,
 				D4B6B4B224EA832A000C8126 /* Resort.swift */,
 				D4B6B4B424EA8464000C8126 /* Bundle-Decodable.swift */,
 				D437DC5624E93D3500A4BB14 /* Assets.xcassets */,
@@ -157,6 +160,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D437DC5124E93D3000A4BB14 /* AppDelegate.swift in Sources */,
+				D4B6B4B724EA8D82000C8126 /* WelcomeView.swift in Sources */,
 				D437DC5324E93D3000A4BB14 /* SceneDelegate.swift in Sources */,
 				D4B6B4B524EA8464000C8126 /* Bundle-Decodable.swift in Sources */,
 				D4B6B4B324EA832A000C8126 /* Resort.swift in Sources */,

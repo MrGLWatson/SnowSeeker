@@ -31,8 +31,20 @@ struct ContentView: View {
                 }
             }
             .navigationBarTitle("Resorts")
+            WelcomeView()
         }
+    //.phoneOnlyStackNavigationView() // put this line in to make phone only changes
         
+    }
+}
+
+extension View {
+    func phoneOnlyStackNavigationView() -> some View {
+        if UIDevice.current.userInterfaceIdiom == .phone {
+            return AnyView(self.navigationViewStyle(StackNavigationViewStyle()))
+        } else {
+            return AnyView(self)
+        }
     }
 }
 
