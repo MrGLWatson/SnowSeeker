@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D4110E9F24EC05640094A461 /* Favorites.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4110E9E24EC05640094A461 /* Favorites.swift */; };
 		D437DC5124E93D3000A4BB14 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D437DC5024E93D3000A4BB14 /* AppDelegate.swift */; };
 		D437DC5324E93D3000A4BB14 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D437DC5224E93D3000A4BB14 /* SceneDelegate.swift */; };
 		D437DC5524E93D3000A4BB14 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D437DC5424E93D3000A4BB14 /* ContentView.swift */; };
@@ -24,6 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D4110E9E24EC05640094A461 /* Favorites.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Favorites.swift; sourceTree = "<group>"; };
 		D437DC4D24E93D3000A4BB14 /* SnowSeeker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnowSeeker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D437DC5024E93D3000A4BB14 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D437DC5224E93D3000A4BB14 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -78,6 +80,7 @@
 				D4B6B4BA24EA952B000C8126 /* SkiDetailsView.swift */,
 				D4B6B4BC24EA9631000C8126 /* ResortDetailsView.swift */,
 				D4B6B4B824EA91E7000C8126 /* ResortView.swift */,
+				D4110E9E24EC05640094A461 /* Favorites.swift */,
 				D45C45D724EBEF3100D5784C /* Facility.swift */,
 				D4B6B4B624EA8D82000C8126 /* WelcomeView.swift */,
 				D4B6B4B224EA832A000C8126 /* Resort.swift */,
@@ -176,6 +179,7 @@
 				D45C45D824EBEF3100D5784C /* Facility.swift in Sources */,
 				D437DC5324E93D3000A4BB14 /* SceneDelegate.swift in Sources */,
 				D4B6B4B924EA91E7000C8126 /* ResortView.swift in Sources */,
+				D4110E9F24EC05640094A461 /* Favorites.swift in Sources */,
 				D4B6B4B524EA8464000C8126 /* Bundle-Decodable.swift in Sources */,
 				D4B6B4B324EA832A000C8126 /* Resort.swift in Sources */,
 				D4B6B4BD24EA9631000C8126 /* ResortDetailsView.swift in Sources */,
