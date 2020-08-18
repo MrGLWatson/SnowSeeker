@@ -9,21 +9,32 @@
 import SwiftUI
 
 struct ResortView: View {
+    @Environment(\.horizontalSizeClass) var sizeClass
     let resort: Resort
     
     var body: some View {
         ScrollView {
             VStack(alignment: .leading, spacing: 0) {
                 Image(decorative: resort.id)
-                .resizable()
-                .scaledToFit()
+                    .resizable()
+                    .scaledToFit()
                 
                 Group {
                     HStack {
-                        Spacer()
-                        ResortDetailsView(resort: resort)
-                        SkiDetailsView(resort: resort)
-                        Spacer()
+                        if sizeClass == .compact {
+                            Spacer()
+                            VStack {
+                                ResortDetailsView(resort: resort)
+                            }
+                            VStack {
+                                SkiDetailsView(resort: resort)
+                            }
+                            Spacer()
+                        } else {
+                            ResortDetailsView(resort: resort)
+                            Spacer().frame(height: 0)
+                            SkiDetailsView(resort: resort)
+                        }
                     }
                     .font(.headline)
                     .foregroundColor(.secondary)
