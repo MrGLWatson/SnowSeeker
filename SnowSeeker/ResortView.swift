@@ -18,9 +18,17 @@ struct ResortView: View {
     var body: some View {
         ScrollView {
             VStack(alignment: .leading, spacing: 0) {
+                ZStack(alignment: .leading) {
                 Image(decorative: resort.id)
                     .resizable()
                     .scaledToFit()
+                    .padding()
+                Text(resort.imageCredit)
+                    .background(Color.black)
+                    .foregroundColor(.white)
+                    .padding(.top, 150)
+                    .padding(.leading, 25)
+                }
                 
                 Group {
                     HStack {
